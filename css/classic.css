@@ -1,0 +1,36 @@
+/* Original adaptation of purogamer/Fluent-for-Steam design tokens.
+   Reference: colors.styles, custom.styles, resource/webkit.css.
+   VGUI skin files are not compatible with modern Steam and are not loaded. */
+:root {
+ --fl-chrome:light-dark(#f0f0f0,#191919);
+ --fl-canvas:light-dark(#f6f6f6,#1e1e1f);
+ --fl-panel:light-dark(#fff,#2e2e2f);
+ --accent-pri:light-dark(#135ef2,#75a7ff) !important;
+ --accent-sec:light-dark(#104fcc,#a6c6ff) !important;
+ --side-button-press:light-dark(rgb(19 94 242 / 10%),rgb(117 167 255 / 14%)) !important;
+ --fl-classic-radius:4px;
+}
+html.fluenty-v3 #fluenty-light-nav {background:var(--fl-chrome);}
+html.fluenty-v3 #fluenty-light-nav a {border-radius:4px !important;}
+html.fluenty-v3 #fluenty-light-nav a[aria-current="page"]::before {height:22px;width:3px;}
+html.fluenty-v3 #fluenty-light-nav a span {font-size:10px;letter-spacing:.1px;}
+html.fluenty-v3 ._1rDh5rXSFZJOqCa4UpnI4z { border-radius:6px !important;border-color:var(--stroke) !important; }
+html.fluenty-v3 ._2SXJM0PeFEi3gbC7V3S5pE { font-family:"Segoe UI Variable Text","Segoe UI","Microsoft YaHei UI",sans-serif !important;font-size:13px !important; }
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ { border-radius:4px !important; }
+html.fluenty-v3 .Woh0kBQCmatzC1daBX9i6 { border-radius:4px !important; }
+html.fluenty-v3 ._17uEBe5Ri8TMsnfELvs8-N { border:0 !important;border-radius:4px !important; }
+html.fluenty-v3 ._3fLo166MlaNqP8r8tTyRz { background:var(--fl-panel) !important;border-radius:4px !important;box-shadow:none !important; }
+html.fluenty-v3 ._2v1XDHrL4pTW4qCXaYUPG6,
+html.fluenty-v3 ._3qDWQGB0rtwM3qpXTb11Q-,
+html.fluenty-v3 ._21hXW2oDD7zvNsoOaW7Yob { background:var(--side-button-hover) !important;border-radius:4px !important;color:var(--text-base-alt) !important; }
+html.fluenty-v3 ._34lrt5-Fc3usZU6trA1P0- { color:var(--text-secondary) !important;font-size:12px !important; }
+html.fluenty-v3 ._1kiZKVbDe-9Ikootk57kpA { border-radius:4px !important; }
+html.fluenty-v3 ._2mZ8LlvoUiyeEUtIWuTri { font-weight:600 !important;letter-spacing:.15px !important;color:var(--text-base) !important; }
+
+/* Keep controls compact while retaining Steam's original list row geometry. */
+html.fluenty-v3 .DialogButton,
+html.fluenty-v3 .DialogDropDown {border-radius:4px !important;text-shadow:none !important;}
+.BasicUI .gpfocus {outline-color:var(--accent-pri) !important;}
+@media (prefers-reduced-motion: reduce) {
+ #fluenty-light-nav a {transition:none !important;}
+}

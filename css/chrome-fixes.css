@@ -1,0 +1,25 @@
+/* Fix native category gradients and titlebar padding overflow. */
+html.fluenty-v3 ._3Z7VQ1IMk4E3HsHvrkLNgo { box-sizing:border-box !important;max-width:100% !important; }
+html.fluenty-v3 ._39oUCO1OuizVPwcnnv88no { box-sizing:border-box !important;min-width:0 !important; }
+html.fluenty-v3 ._30vB9DdsPK7VrZAbb5Q1Av { flex:1 1 auto !important;min-width:0 !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 { flex:0 0 108px !important;min-width:108px !important;height:var(--fl-title-height) !important;align-self:center !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .title-area { align-items:center !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .title-bar-actions { max-height:none !important;margin:0 !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .title-area-icon { width:36px !important;height:var(--fl-title-height) !important;flex-shrink:0 !important;color:var(--text-base) !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .SVGIcon_Button line,
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .SVGIcon_Button rect,
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .SVGIcon_Button polyline { stroke:var(--text-base) !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .title-area-icon:hover { background:var(--side-button-hover) !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .closeButton:hover { background:#c42b1c !important; }
+html.fluenty-v3 .qP17eBPXkfezFfexZ4hC3 .closeButton:hover svg line { stroke:#fff !important; }
+html.fluenty-v3 ._2sYIghGVXJr6tsQVvcryy8 { background:var(--fl-chrome) !important;color:var(--text-base-alt) !important;box-shadow:none !important;border-color:transparent !important; }
+html.fluenty-v3 ._2sYIghGVXJr6tsQVvcryy8:hover,
+html.fluenty-v3 ._2sYIghGVXJr6tsQVvcryy8._2zGph-MSF37bUmk_Qlu_XG { background:var(--fill-alt) !important; }
+html.fluenty-v3 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5,
+html.fluenty-v3 ._2sYIghGVXJr6tsQVvcryy8._1dcGFHhye9BeEOg7CkFNQG { background:var(--side-button-press) !important; }
+html.fluenty-v3 ._3cV3O8FnPQqpJO5kIMUlLX,
+html.fluenty-v3 ._2mZ8LlvoUiyeEUtIWuTri { color:var(--text-base-alt) !important; }
+html.fluenty-v3 ._29uten9Yy8q-n7woDEOXVF { color:var(--text-secondary) !important; }
+html.fluenty-v3 ._1PxXcZNpN0cCxbnjEoTdYT { background:var(--stroke) !important; }
+html.fluenty-v3 ._3AhYljPF4e4E8LaBt-FoY0,
+html.fluenty-v3 ._2CEKFex6JMsAse2lqMMjUp { background:var(--fl-panel) !important;color:var(--text-base) !important; }

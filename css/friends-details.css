@@ -1,0 +1,31 @@
+/* Friends empty state and chat interaction colors, including detached windows. */
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .ChatRoomList .ChatRoomList_Empty { color:var(--text-secondary) !important;text-shadow:none !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .ChatRoomList_Empty a { color:var(--accent-pri) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .insetShadow,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .friendListInsetShadowBottom { background:none !important;box-shadow:none !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .friendsListSectionTitle,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .titleBarContainer.ChatTabs,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .ChatTabs { background:var(--fl-chrome) !important;color:var(--text-base-alt) !important;box-shadow:none !important;border-color:var(--stroke) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatTabList .chatTab,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatTabList .chatTab:not(.active),
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatTabSelector,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .ChatTabsBackButton { background:var(--fill-alt) !important;color:var(--text-base-alt) !important;box-shadow:none !important;border-color:var(--stroke) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatTabList .chatTab.active { background:var(--fl-panel) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatTabGroupName,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatTabName { color:var(--text-base-alt) !important;text-shadow:none !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatTab .ingame .playerName,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .speaker.ingame .speakerName { color:var(--fl-ingame) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) ._3qYm9oxf8MdyvQDJgbfCrF:hover,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .msg.gpfocus,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .gpfocus .msg { background:var(--side-button-hover) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) ._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG { background:var(--fl-panel) !important;color:var(--text-base-alt) !important;border:1px solid var(--stroke) !important;border-radius:5px !important;box-shadow:0 2px 8px light-dark(rgb(0 0 0 / 12%),rgb(0 0 0 / 30%)) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ { color:var(--text-base-alt) !important;fill:currentColor !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ:hover { background:var(--side-button-hover) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatEntry ._3zOBeq5W4cNK3lRz_7aroW,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatEntry .ChatMessageEntryVoice:not(.Active),
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatEntry .ChatMessageEntryVoice:not(.Active) .VoiceControlPanelButton { background:transparent !important;color:var(--text-base-alt) !important;box-shadow:none !important;border-color:var(--stroke) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatEntry ._3zOBeq5W4cNK3lRz_7aroW:hover,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatEntry .ChatMessageEntryVoice:not(.Active):hover { background:var(--side-button-hover) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .ChatMessageEntryVoice:not(.Active) .VoiceIconCtn,
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .ChatMessageEntryVoice:not(.Active) .VoiceIconCtn svg { color:var(--text-base-alt) !important; }
+:is(.friendsui-container,body:has(.chatWindow),body:has(.friendlist)) .chatEntry .SVGIcon_Shadow { display:none !important; }

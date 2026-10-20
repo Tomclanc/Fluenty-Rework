@@ -1,0 +1,111 @@
+{
+  "name": "Fluenty Rework",
+  "author": "Tomclanc",
+  "description": "Unofficial Fluent-inspired Steam theme with a compact sidebar, blue accent and automatic light/dark colors. Experimental Big Picture support.",
+  "version": "0.7.0",
+  "UseDefaultPatches": false,
+  "Patches": [
+    {
+      "MatchRegexString": "^Steam$",
+      "TargetCss": "libraryroot.custom.css",
+      "TargetJs": "libraryroot.custom.js"
+    },
+    {
+      "MatchRegexString": "Menu$",
+      "TargetCss": "libraryroot.custom.css"
+    },
+    {
+      "MatchRegexString": "Supernav$",
+      "TargetCss": "libraryroot.custom.css"
+    },
+    {
+      "MatchRegexString": "._14wqdluDeDnnEcg3OSLEmd",
+      "TargetCss": "libraryroot.custom.css"
+    },
+    {
+      "MatchRegexString": ".ModalDialogBody",
+      "TargetCss": "libraryroot.custom.css"
+    },
+    {
+      "MatchRegexString": "._33vqr13-jdnjTkKKTh414f",
+      "TargetCss": "libraryroot.custom.css"
+    },
+    {
+      "MatchRegexString": "._2sssIwe0duyIrFvat2oXzH",
+      "TargetCss": "libraryroot.custom.css"
+    },
+    {
+      "MatchRegexString": "._3few7361SOf4k_YuKCmM62",
+      "TargetCss": "libraryroot.custom.css"
+    },
+    {
+      "MatchRegexString": "^Steam Big Picture Mode$",
+      "TargetCss": "bigpicture.custom.css"
+    },
+    {
+      "MatchRegexString": "^QuickAccess_",
+      "TargetCss": "bigpicture.custom.css"
+    },
+    {
+      "MatchRegexString": "^MainMenu_",
+      "TargetCss": "bigpicture.custom.css"
+    },
+    {
+      "MatchRegexString": ".SavedDimensionsPopup",
+      "TargetCss": "friends.custom.css"
+    },
+    {
+      "MatchRegexString": ".ChatPopup",
+      "TargetCss": "friends.custom.css"
+    },
+    {
+      "MatchRegexString": ".friendsui-container",
+      "TargetCss": "friends.custom.css"
+    }
+  ],
+  "Conditions": {
+    "Color Mode": {
+      "description": "Auto follows the system. Light and Dark force a color scheme.",
+      "tab": "Personalization",
+      "section": "Colors",
+      "default": "Auto",
+      "values": {
+        "Auto": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "css/modes/auto.css"
+          }
+        },
+        "Light": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "css/modes/light.css"
+          }
+        },
+        "Dark": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "css/modes/dark.css"
+          }
+        }
+      }
+    }
+  },
+  "github": {
+    "owner": "Tomclanc",
+    "repo_name": "Fluenty-Rework"
+  },
+  "header_image": "https://raw.githubusercontent.com/Tomclanc/Fluenty-Rework/main/assets/preview.png",
+  "splash_image": "https://raw.githubusercontent.com/Tomclanc/Fluenty-Rework/main/assets/preview.png",
+  "tags": [
+    "light",
+    "dark",
+    "fluent"
+  ]
+}

@@ -1,0 +1,13 @@
+/* Library row states: explicit solid colors in both schemes. */
+:root {--fl-row-selected:light-dark(#dce8fc,#283d59);--fl-row-selected-hover:light-dark(#cfdef8,#314b6b);--fl-row-hover:light-dark(#e5e5e5,#303030);}
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ:hover,
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj { background:var(--fl-row-hover) !important;box-shadow:none !important; }
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9,
+html.fluenty-v3 ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ,
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ._3km84Vscc0uS91f0RN_30C { background:var(--fl-row-selected) !important;color:var(--text-base) !important;box-shadow:inset 3px 0 var(--accent-pri) !important;border-color:transparent !important; }
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9:hover,
+html.fluenty-v3 ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ:hover,
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ._3km84Vscc0uS91f0RN_30C:hover { background:var(--fl-row-selected-hover) !important; }
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9 ._2SXJM0PeFEi3gbC7V3S5pE,
+html.fluenty-v3 ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ ._2SXJM0PeFEi3gbC7V3S5pE,
+html.fluenty-v3 ._2-O4ZG0KrnSrzISHBKctFQ._3km84Vscc0uS91f0RN_30C ._2SXJM0PeFEi3gbC7V3S5pE { color:var(--text-base) !important;opacity:1 !important;text-shadow:none !important; }

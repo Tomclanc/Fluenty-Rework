@@ -1,0 +1,18 @@
+/* Independently authored palette. Numeric light/dark choices reference Zehn's neutral hierarchy; no upstream CSS is bundled. */
+:root {
+ --fr-canvas:light-dark(#fff,#222);--fr-chrome:light-dark(#e6e6e6,#1f1f1f);--fr-panel:light-dark(#f2f2f2,#171717);
+ --fr-text:light-dark(#000,#fff);--fr-text-alt:light-dark(#333,#ccc);--fr-muted:light-dark(#666,#999);--fr-disabled:light-dark(#999,#7f7f7f);
+ --fr-accent:#0078d4;--fr-accent-hover:#0067c0;--fr-accent-pressed:#005a9e;--fr-accent-tint:rgb(0 120 212 / 20%);
+ --fr-border:rgb(85 85 85 / 50%);--fr-control-border:transparent;
+ --fr-hover:light-dark(rgb(0 0 0 / 10%),rgb(255 255 255 / 10%));--fr-inset:light-dark(rgb(0 0 0 / 5%),rgb(255 255 255 / 5%));
+ --fr-button:light-dark(rgb(0 0 0 / 20%),rgb(255 255 255 / 20%));--fr-button-hover:var(--fr-button);--fr-input:light-dark(rgb(255 255 255 / 40%),rgb(0 0 0 / 40%));
+ --fr-online:#01ff00;--fr-ingame:#01ff00;
+ --fl-chrome:var(--fr-chrome) !important;--fl-canvas:var(--fr-canvas) !important;--fl-panel:var(--fr-panel) !important;
+ --mica-bg-accent:var(--fr-chrome) !important;--base:var(--fr-canvas) !important;--base-alt:var(--fr-chrome) !important;
+ --fill:var(--fr-input) !important;--fill-alt:var(--fr-panel) !important;--stroke:var(--fr-border) !important;--stroke-solid:var(--fr-border) !important;--separator-alt:var(--fr-border) !important;
+ --text-base:var(--fr-text) !important;--text-base-alt:var(--fr-text-alt) !important;--text-secondary:var(--fr-muted) !important;--text-disabled:var(--fr-disabled) !important;
+ --accent-pri:var(--fr-accent) !important;--accent-sec:var(--fr-accent-hover) !important;--accent-ter:var(--fr-accent-pressed) !important;--accent-stb:var(--fr-accent) !important;--accent-dis:var(--fr-disabled) !important;
+ --side-button-hover:var(--fr-hover) !important;--side-button-press:var(--fr-accent) !important;
+ --fl-row-selected:var(--fr-accent) !important;--fl-row-selected-hover:var(--fr-accent) !important;--fl-row-hover:var(--fr-hover) !important;
+ --fl-online:var(--fr-online) !important;--fl-ingame:var(--fr-ingame) !important;
+}

@@ -1,0 +1,35 @@
+/* Restore selected rail glyphs and finish detail surfaces using Zehn tokens. */
+html.fluenty-v3 body #fluenty-light-nav a[aria-current="page"],
+html.fluenty-v3 body #fluenty-light-nav a[aria-current="page"] span { color:var(--fr-text) !important; }
+html.fluenty-v3 body #fluenty-light-nav a svg { display:block !important;visibility:visible !important;opacity:1 !important;fill:none !important;stroke:currentColor !important; }
+html.fluenty-v3 body #fluenty-light-nav a svg path { fill:none !important;stroke:currentColor !important; }
+html.fluenty-v3 body .LibriMVXcLl1HB60ZUp78,
+html.fluenty-v3 body ._2tDv0EeJIdDmZLyfUE63t1,
+html.fluenty-v3 body ._2HzKE96Sc4z6KHN68gr4DS,
+html.fluenty-v3 body ._1HZy7BvOZuPT8feUwadL4W,
+html.fluenty-v3 body ._2gv3EsHSu5dMQyMqaz-W9t,
+html.fluenty-v3 body ._3dJ4Bq6Msivz5-UIHzSEQu,
+html.fluenty-v3 body ._1wJJQwnV-ssGrL0xveFujy,
+html.fluenty-v3 body ._2Dbxm-Lv_YU2jN88HErlMS,
+html.fluenty-v3 body ._3iIro38Q-z5F_75QwHtFuc,
+html.fluenty-v3 body ._3g3jmTgyAQZeyo10abbOmV,
+html.fluenty-v3 body ._21DlIyo8Kp99Kz3KmWiFno,
+html.fluenty-v3 body ._1LRR7Ji-cwYvaIOcDllLOx,
+html.fluenty-v3 body ._2KA0p5xYePYygXUbjjsPzA,
+html.fluenty-v3 body .eXM8B850UabT_4HdNRjsC { background:var(--fr-panel) !important;color:var(--fr-text) !important;box-shadow:none !important;border-color:var(--fr-border) !important; }
+html.fluenty-v3 body ._3cX_vEKsN9S9EmR0O5w1Ol { display:none !important; }
+html.fluenty-v3 body ._3fsjzvni7TQ1NphLHM_5r3,
+html.fluenty-v3 body ._1gljEIuhbsQpFCWuVhdKTJ,
+html.fluenty-v3 body ._1Cva_kor3lWBIoeu9cQxJq,
+html.fluenty-v3 body ._3ca2d1qaIzPNm79jqRbi0J,
+html.fluenty-v3 body ._2PMlMbFfEmv1xThuy6Vgqv,
+html.fluenty-v3 body .zpBMRpPhaI6jqMh9-UQAi,
+html.fluenty-v3 body ._1eZi9D2dwrPAL_LgwE0KVv { color:var(--fr-text) !important;text-shadow:none !important; }
+html.fluenty-v3 body ._3zwBRDW1egliiT4pKYIXap,
+html.fluenty-v3 body .Ru7OBQzSxqIo3jIsbtV9g,
+html.fluenty-v3 body ._1ujzuoxGhLunHZQqHAqRgg,
+html.fluenty-v3 body ._3ZUP3RJr6PRn6IzODoxZDx,
+html.fluenty-v3 body ._2H1MiFt6wMYuJDB8kZElFs,
+html.fluenty-v3 body ._14kZVEyaz7WX57N47z4Yr1 { color:var(--fr-muted) !important;text-shadow:none !important; }
+html.fluenty-v3 body ._3ns9185LizH61StaAXuAp6 { background:var(--fr-inset) !important;border:0 !important;box-shadow:none !important; }
+html.fluenty-v3 body ._3Rm36_oeAhvIg6ZYP9l1Jj { background:var(--fr-accent) !important; }

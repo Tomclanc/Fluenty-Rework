@@ -1,0 +1,34 @@
+/* Fluenty chat reference: quiet canvas, rounded tabs, full-width composer. */
+.friendsui-container .ChatTabs {
+ background:var(--fl-chrome) !important;border-bottom:1px solid var(--stroke) !important;
+ padding-top:12px !important;padding-left:16px !important;box-sizing:border-box !important;
+}
+.friendsui-container .ChatTabs.HasWindowControls {padding-right:108px !important;}
+.friendsui-container .chatTabList .chatTab {
+ background:transparent !important;box-shadow:none !important;border:1px solid transparent !important;
+ border-bottom:0 !important;border-radius:8px 8px 0 0 !important;height:40px !important;
+ color:var(--text-secondary) !important;
+}
+.friendsui-container .chatTabList .chatTab.active {
+ background:var(--fl-panel) !important;border-color:var(--stroke) !important;color:var(--text-base) !important;
+}
+.friendsui-container .chatTabList .chatTab:hover {background:var(--fill-alt) !important;}
+.chatWindow .chatHistoryScroll {padding:20px 18px !important;}
+.chatWindow .chatHistory {margin-left:0 !important;}
+.chatWindow .ChatRoomSpeaker {margin-top:16px !important;}
+.chatWindow .msgText {line-height:1.5 !important;}
+.chatWindow .speakerAvatar img {border-radius:50% !important;}
+.chatWindow .chatEntry {
+ background:var(--fl-canvas) !important;padding:8px 10px 6px !important;
+ gap:6px !important;align-items:center !important;box-sizing:border-box !important;
+}
+.chatWindow .chatEntry > * {margin-bottom:0 !important;}
+.chatWindow ._3Ule3rolhZJiBN4yNNtk1s { flex:1 0 100% !important;box-sizing:border-box !important;min-width:0 !important;min-height:42px !important;background:var(--fl-panel) !important;color:var(--text-base) !important;border:1px solid var(--stroke-solid) !important;border-radius:8px !important;box-shadow:none !important;align-items:center !important; }
+.chatWindow ._3Ule3rolhZJiBN4yNNtk1s:focus-within {border-bottom:2px solid var(--accent-pri) !important;}
+.chatWindow ._113iuw_HlE_qSgt9cGWCSv { box-sizing:border-box !important;min-width:0 !important;min-height:40px !important;max-height:160px !important;background:transparent !important;color:var(--text-base) !important;font-family:inherit !important;padding:10px 12px !important;border:0 !important;box-shadow:none !important; }
+.chatWindow .RVIs84dAE6wHcjH9tkinc { flex:0 0 40px !important;min-width:40px !important;height:36px !important;margin:0 2px !important;background:transparent !important;color:var(--text-base-alt) !important;border:0 !important;border-radius:5px !important; }
+.chatWindow ._2WfNoLBdfKwyutA6ho4aSH { margin:0 !important;padding:0 !important;background:transparent !important;box-shadow:none !important; }
+.chatWindow .W0OhkJtz8zMUW8Mhu0BMO { margin-right:auto !important;max-height:none !important; }
+.chatWindow .ChatMessageEntryVoice:not(.Active) {margin-left:auto !important;background:transparent !important;box-shadow:none !important;border-radius:6px !important;}
+.chatWindow .ChatMessageEntryVoice.Active {border-radius:6px !important;}
+@media(max-width:420px) {.chatWindow .chatHistoryScroll {padding:12px 8px !important;}.friendsui-container .ChatTabs {padding-left:6px !important;}}

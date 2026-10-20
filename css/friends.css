@@ -1,0 +1,78 @@
+/* Independent friends/chat windows; no desktop navigation script. */
+:root {--fl-online:light-dark(#006b91,#6dcff6);--fl-ingame:light-dark(#356b14,#b7e383);}
+body:has(.friendsui-container),body:has(.friendlist),body:has(.chatWindow) {background:var(--fl-canvas) !important;color:var(--text-base) !important;}
+:is(.friendsui-container,.friendlist,.chatWindow) { background:var(--fl-canvas) !important;color:var(--text-base) !important;box-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .FriendsListContent,
+:is(.friendsui-container,.friendlist,.chatWindow) .friendlistListContainer,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomListContainer,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatHistoryScroll,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatHistory,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatBody,
+:is(.friendsui-container,.friendlist,.chatWindow) .friendGroup,
+:is(.friendsui-container,.friendlist,.chatWindow) .ChatRoomListGroupItem { background:var(--fl-canvas) !important;color:var(--text-base) !important;box-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .friendListHeaderContainer,
+:is(.friendsui-container,.friendlist,.chatWindow) .friendsListSectionTitle,
+:is(.friendsui-container,.friendlist,.chatWindow) .friendListFooter,
+:is(.friendsui-container,.friendlist,.chatWindow) .titleBarContainer.ChatTabs,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatEntry,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomGroupHeader { background:var(--fl-chrome) !important;color:var(--text-base) !important;border-color:var(--stroke) !important;box-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .groupName,
+:is(.friendsui-container,.friendlist,.chatWindow) .groupNameLabel,
+:is(.friendsui-container,.friendlist,.chatWindow) .groupCount,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomName,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomGroupHeaderName,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomTextChannelName,
+:is(.friendsui-container,.friendlist,.chatWindow) .quickAccessFriendsMessage { color:var(--text-base-alt) !important;text-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .friend:hover,
+:is(.friendsui-container,.friendlist,.chatWindow) .ChatRoomListItem:hover,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatTab:hover { background:var(--side-button-hover) !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .friend.selected,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomTextChannel.ActiveTextChannel { background:var(--side-button-press) !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .msgText,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatEntry textarea,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatEntry [contenteditable="true"] { color:var(--text-base) !important;text-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .chatEntryControls,
+:is(.friendsui-container,.friendlist,.chatWindow) input[type="text"],
+:is(.friendsui-container,.friendlist,.chatWindow) input[type="search"],
+:is(.friendsui-container,.friendlist,.chatWindow) textarea { background:var(--fl-panel) !important;color:var(--text-base) !important;border-color:var(--stroke-solid) !important;border-radius:4px !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .nickNamedAs,
+:is(.friendsui-container,.friendlist,.chatWindow) .playerNickname,
+:is(.friendsui-container,.friendlist,.chatWindow) .richPresenceLabel,
+:is(.friendsui-container,.friendlist,.chatWindow) .emptyFriendsList,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomGroupHeaderTagline,
+:is(.friendsui-container,.friendlist,.chatWindow) ._2saJTAocZ9TnYXTGvnqUMC { color:var(--text-secondary) !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .online .playerName,
+:is(.friendsui-container,.friendlist,.chatWindow) .online .personaName,
+:is(.friendsui-container,.friendlist,.chatWindow) .online .friendName,
+:is(.friendsui-container,.friendlist,.chatWindow) .online .richPresenceLabel,
+:is(.friendsui-container,.friendlist,.chatWindow) .online .gameName,
+:is(.friendsui-container,.friendlist,.chatWindow) .online .nOdcT-MoOaXGePXLyPe0H,
+:is(.friendsui-container,.friendlist,.chatWindow) .online ._2Ri005Wg_uXDTa71kdRbcN,
+:is(.friendsui-container,.friendlist,.chatWindow) .online ._1cB0qtF0paHWWyj1XNcnbG { color:var(--fl-online) !important;text-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame .playerName,
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame .personaName,
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame .friendName,
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame .richPresenceLabel,
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame .gameName,
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame .nOdcT-MoOaXGePXLyPe0H,
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame ._2Ri005Wg_uXDTa71kdRbcN,
+:is(.friendsui-container,.friendlist,.chatWindow) .ingame ._1cB0qtF0paHWWyj1XNcnbG { color:var(--fl-ingame) !important;text-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .offline .playerName,
+:is(.friendsui-container,.friendlist,.chatWindow) .offline .personaName,
+:is(.friendsui-container,.friendlist,.chatWindow) .offline .friendName,
+:is(.friendsui-container,.friendlist,.chatWindow) .offline .richPresenceLabel,
+:is(.friendsui-container,.friendlist,.chatWindow) .offline .gameName,
+:is(.friendsui-container,.friendlist,.chatWindow) .offline .nOdcT-MoOaXGePXLyPe0H,
+:is(.friendsui-container,.friendlist,.chatWindow) .offline ._2Ri005Wg_uXDTa71kdRbcN,
+:is(.friendsui-container,.friendlist,.chatWindow) .offline ._1cB0qtF0paHWWyj1XNcnbG { color:var(--text-secondary) !important;text-shadow:none !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .quickAccessFriends { background:var(--fl-panel) !important;border-color:var(--stroke) !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .quickAccessFriendsMessageDismiss,
+:is(.friendsui-container,.friendlist,.chatWindow) .createChatRoomButton,
+:is(.friendsui-container,.friendlist,.chatWindow) .chatRoomHeaderButton { background:var(--fill-alt) !important;color:var(--text-base-alt) !important;border-radius:4px !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .title-area-icon .SVGIcon_Button line,
+:is(.friendsui-container,.friendlist,.chatWindow) .title-area-icon .SVGIcon_Button rect,
+:is(.friendsui-container,.friendlist,.chatWindow) .title-area-icon .SVGIcon_Button polyline { stroke:var(--text-base-alt) !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .title-area-icon:hover { background:var(--side-button-hover) !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .title-area-icon.closeButton:hover { background:#c42b1c !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) .title-area-icon.closeButton:hover line { stroke:white !important; }
+:is(.friendsui-container,.friendlist,.chatWindow) ::-webkit-scrollbar-thumb { background:var(--stroke-solid) !important; }
