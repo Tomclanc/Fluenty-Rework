@@ -4,10 +4,38 @@ html.fluenty-v3 ._1-9sir4j_KQiMqdkZjQN0u {display:flex !important;align-items:ce
 html.fluenty-v3 ._2MD8aK_Q9dU8Sax4eiNYIp {background:transparent !important;box-shadow:none !important;border-radius:6px !important;max-width:150px !important;}
 html.fluenty-v3 ._2ntJ4yqgcDOJsO0uFi4DxF {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 html.fluenty-v3 ._30vB9DdsPK7VrZAbb5Q1Av {display:flex !important;justify-content:center !important;align-items:center !important;padding:0 24px !important;box-sizing:border-box !important;}
-#fl-top-search {display:flex;align-items:center;gap:9px;width:min(100%,490px);height:30px;box-sizing:border-box;padding:0 12px;background:var(--fill-alt);border:1px solid var(--stroke);border-radius:5px;color:var(--text-secondary);-webkit-app-region:no-drag;}
-#fl-top-search[hidden] {display:none;}
-#fl-top-search > span {font-size:22px;line-height:1;}
-#fl-top-search input {width:100%;min-width:0;box-sizing:border-box;border:0;background:transparent;color:var(--text-base);font:inherit;font-size:12px;outline:none;}
-#fl-top-search:focus-within {border-bottom:2px solid var(--accent-pri);}
-#fl-top-search input::placeholder {color:var(--text-secondary);}
-@media(max-width:1150px) {#fl-top-search {display:none;}html.fluenty-v3 ._30vB9DdsPK7VrZAbb5Q1Av {padding:0 4px !important;}}
+/* Display the existing Steam input at the top without moving React DOM or forwarding input events. */
+#fl-top-search {display:none !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo {background:var(--fr-panel) !important;color:var(--fr-text) !important;border:1px solid var(--fr-border) !important;box-shadow:none !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo input {color:var(--fr-text) !important;background-color:transparent !important;box-shadow:none !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo input::placeholder {color:var(--fr-muted) !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo:focus-within {border-bottom:2px solid var(--fr-accent) !important;}
+@media(min-width:1151px) {
+ html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo {position:fixed !important;top:6px !important;left:calc(50% - clamp(120px,16vw,245px)) !important;right:auto !important;bottom:auto !important;transform:none !important;width:clamp(240px,32vw,490px) !important;height:32px !important;margin:0 !important;z-index:1000 !important;box-sizing:border-box !important;-webkit-app-region:no-drag !important;}
+ html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS {min-height:30px !important;}
+ html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo input {height:30px !important;}
+ html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo .Woh0kBQCmatzC1daBX9i6 {max-width:min(700px,80vw);}
+}
+
+/* One visual frame around the original Steam search and filter control. */
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo {border-radius:5px !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS,
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogInput_Wrapper,
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
+ border:0 !important;outline:0 !important;box-shadow:none !important;background-color:transparent !important;
+ border-radius:0 !important;margin:0 !important;box-sizing:border-box !important;
+}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS {min-height:0 !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {height:100% !important;width:100% !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
+ background:transparent !important;height:auto !important;align-self:stretch !important;
+}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1TxHdzOt3OD9ikR3xIseKe {
+ border:0 !important;border-inline-start:1px solid var(--fr-border) !important;border-radius:0 !important;
+ background:transparent !important;box-shadow:none !important;color:var(--fr-text-alt) !important;
+ margin:0 !important;min-height:0 !important;box-sizing:border-box !important;
+}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo ._1TxHdzOt3OD9ikR3xIseKe:hover {background:var(--fr-hover) !important;}
+html.fluenty-v3 ._20QAC4WMXm8qFE8waUT5oo:focus-within {
+ border:1px solid var(--fr-border) !important;box-shadow:inset 0 -2px var(--fr-accent) !important;
+}

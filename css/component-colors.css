@@ -1,0 +1,73 @@
+/* Native component colors, including detached windows and asynchronously loaded library views. */
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .friendsListSectionTitle,
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .friendsListSectionTitle.chatSectionTitle { background:var(--fr-chrome) !important;color:var(--fr-text-alt) !important;border-color:var(--fr-border) !important;box-shadow:none !important; }
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .friendsListSectionTitle svg { color:var(--fr-text-alt) !important;fill:currentColor !important; }
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .friendsListSectionTitle svg line { stroke:var(--fr-chrome) !important; }
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .chatWindow .chatHeader,
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .chatWindow.SingleUserChat .chatHeader { background:var(--fr-chrome) !important;box-shadow:none !important;border-color:var(--fr-border) !important; }
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) ._1osHa9KHOmdCDNrA232z4N,
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) ._2OoTJwlWvzvAysWOOEQaXS,
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .chatHeaderGradient,
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .friendListInsetShadowTop,
+:is(.friendsui-container,.ChatPopup,body:has(.ChatTabs),body:has(.friendsListSectionTitle),body:has(.friendlist)) .friendListInsetShadowBottom { background:none !important;box-shadow:none !important; }
+._2CEKFex6JMsAse2lqMMjUp,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 { background:var(--fr-panel) !important;color:var(--fr-text-alt) !important;border-color:var(--fr-border) !important;box-shadow:none !important; }
+._2CEKFex6JMsAse2lqMMjUp:hover,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6:hover { background:var(--fr-hover) !important; }
+._2CEKFex6JMsAse2lqMMjUp svg,
+._2CEKFex6JMsAse2lqMMjUp svg g,
+._2CEKFex6JMsAse2lqMMjUp svg path,
+._2CEKFex6JMsAse2lqMMjUp svg rect,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg g,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg path,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg rect { color:inherit !important;fill:currentColor !important; }
+._2CEKFex6JMsAse2lqMMjUp svg line,
+._2CEKFex6JMsAse2lqMMjUp svg polyline,
+._2CEKFex6JMsAse2lqMMjUp svg circle,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg line,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg polyline,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg circle { stroke:currentColor !important; }
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq { color:var(--fr-accent) !important; }
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1MAuQug6YmX05JxGIy637e { color:var(--fr-disabled) !important; }
+.rvYRfhjWoi57GShuRcAwP ._1QOqxv1IVU4TSd_6unnCY0,
+.rvYRfhjWoi57GShuRcAwP ._1p4KV0LZCs0tnDlcOahdCN,
+.fyxt0H7Cwfirf9908slPp,
+._1eFe5VbyACJE4RVGpOWKMC { color:var(--fr-text-alt) !important;text-shadow:none !important; }
+._1eFe5VbyACJE4RVGpOWKMC svg,
+._1eFe5VbyACJE4RVGpOWKMC svg path { color:var(--fr-text-alt) !important;fill:currentColor !important; }
+._1eFe5VbyACJE4RVGpOWKMC svg circle,
+._1eFe5VbyACJE4RVGpOWKMC svg polyline { stroke:var(--fr-text-alt) !important; }
+
+/* Legacy library sections render the heading beside the news body. */
+._1NCHRjqdjqGE3JbG4b0rLF ._1QOqxv1IVU4TSd_6unnCY0,
+._1NCHRjqdjqGE3JbG4b0rLF ._1p4KV0LZCs0tnDlcOahdCN,
+._17uEBe5Ri8TMsnfELvs8-N ._1QOqxv1IVU4TSd_6unnCY0,
+._17uEBe5Ri8TMsnfELvs8-N ._1p4KV0LZCs0tnDlcOahdCN { color:var(--fr-text-alt) !important;text-shadow:none !important; }
+
+/* Library navigation paints its own inner link and four CSS grid squares. */
+._2TKEazUUS3TlniZfpc8OOe ._3pSPluBgf0NeR1kkCLWMhR,
+._2TKEazUUS3TlniZfpc8OOe ._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
+ background:var(--fr-panel) !important;color:var(--fr-text-alt) !important;
+ border-color:var(--fr-border) !important;box-shadow:none !important;
+}
+._2TKEazUUS3TlniZfpc8OOe ._3pSPluBgf0NeR1kkCLWMhR:hover {background:var(--fr-hover) !important;}
+._2TKEazUUS3TlniZfpc8OOe ._3pSPluBgf0NeR1kkCLWMhR ._3O48LaKWcabKx07xdrt1TH {color:var(--fr-text-alt) !important;}
+._2TKEazUUS3TlniZfpc8OOe .nC-pL16iUnIRcaj1UVnwq ._2tyaVs9BpqcW068aaOrO56 {background:var(--fr-text-alt) !important;}
+._2TKEazUUS3TlniZfpc8OOe .eNLOx4LVceeMwRvTVWh3 .nC-pL16iUnIRcaj1UVnwq ._2tyaVs9BpqcW068aaOrO56 {background:var(--fr-accent) !important;}
+/* Do not depend on the page JS marker or a particular heading wrapper. */
+._1QOqxv1IVU4TSd_6unnCY0,
+._1QOqxv1IVU4TSd_6unnCY0 :is(div,span),
+._1p4KV0LZCs0tnDlcOahdCN {color:var(--fr-text-alt) !important;text-shadow:none !important;}
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg {stroke:currentColor !important;}
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg :is(line,polyline,circle) {fill:none !important;stroke:currentColor !important;}
+
+/* This is ScrollToTop, not the sort/filter icon. Steam paints the SVG itself. */
+._1ZS_xta5HMXzR8JgxDH6n7 .uE7Pj4tb2n3_Bx4vjEX0a .SVGIcon_Arrow {
+ background:var(--fr-panel) !important;color:var(--fr-text-alt) !important;
+ border:1px solid var(--fr-border) !important;box-shadow:none !important;
+}
+._1ZS_xta5HMXzR8JgxDH6n7 .uE7Pj4tb2n3_Bx4vjEX0a .SVGIcon_Arrow polyline {
+ fill:none !important;stroke:var(--fr-text-alt) !important;
+}
+._1ZS_xta5HMXzR8JgxDH6n7 .uE7Pj4tb2n3_Bx4vjEX0a:hover .SVGIcon_Arrow {background:var(--fr-hover) !important;}

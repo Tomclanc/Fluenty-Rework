@@ -1,0 +1,13 @@
+/* Avatar-only account entry. Keep native menu semantics and text fallback if no avatar exists. */
+html.fluenty-v3 ._2MD8aK_Q9dU8Sax4eiNYIp:has(img) {width:36px !important;min-width:36px !important;max-width:36px !important;height:36px !important;max-height:36px !important;padding:2px !important;box-sizing:border-box !important;gap:0 !important;border-radius:50% !important;background:transparent !important;overflow:hidden !important;}
+html.fluenty-v3 ._2MD8aK_Q9dU8Sax4eiNYIp:has(img):hover {background:var(--side-button-hover) !important;}
+html.fluenty-v3 ._2MD8aK_Q9dU8Sax4eiNYIp:has(img) > :not(img):not(:has(img)) {display:none !important;}
+html.fluenty-v3 ._2MD8aK_Q9dU8Sax4eiNYIp:has(img) > :has(img) {width:32px !important;height:32px !important;border-radius:50% !important;overflow:hidden !important;flex:0 0 32px !important;}
+html.fluenty-v3 ._2MD8aK_Q9dU8Sax4eiNYIp img {width:32px !important;height:32px !important;object-fit:cover !important;border-radius:50% !important;box-shadow:none !important;}
+html.fluenty-v3 ._2MD8aK_Q9dU8Sax4eiNYIp:focus-visible {outline:2px solid var(--accent-pri) !important;outline-offset:2px !important;}
+html.fluenty-v3 ._3yD46y5pd3zOGR7CzKs0mC:has(img) {width:36px !important;min-width:36px !important;max-width:36px !important;height:36px !important;max-height:36px !important;padding:2px !important;box-sizing:border-box !important;gap:0 !important;border-radius:50% !important;background:transparent !important;overflow:hidden !important;}
+html.fluenty-v3 ._3yD46y5pd3zOGR7CzKs0mC:has(img):hover {background:var(--side-button-hover) !important;}
+html.fluenty-v3 ._3yD46y5pd3zOGR7CzKs0mC:has(img) > :not(img):not(:has(img)) {display:none !important;}
+html.fluenty-v3 ._3yD46y5pd3zOGR7CzKs0mC:has(img) > :has(img) {width:32px !important;height:32px !important;border-radius:50% !important;overflow:hidden !important;flex:0 0 32px !important;}
+html.fluenty-v3 ._3yD46y5pd3zOGR7CzKs0mC img {width:32px !important;height:32px !important;object-fit:cover !important;border-radius:50% !important;box-shadow:none !important;}
+html.fluenty-v3 ._3yD46y5pd3zOGR7CzKs0mC:focus-visible {outline:2px solid var(--accent-pri) !important;outline-offset:2px !important;}

@@ -6,7 +6,7 @@
  --fr-border:rgb(85 85 85 / 50%);--fr-control-border:transparent;
  --fr-hover:light-dark(rgb(0 0 0 / 10%),rgb(255 255 255 / 10%));--fr-inset:light-dark(rgb(0 0 0 / 5%),rgb(255 255 255 / 5%));
  --fr-button:light-dark(rgb(0 0 0 / 20%),rgb(255 255 255 / 20%));--fr-button-hover:var(--fr-button);--fr-input:light-dark(rgb(255 255 255 / 40%),rgb(0 0 0 / 40%));
- --fr-online:#01ff00;--fr-ingame:#01ff00;
+ --fr-online:light-dark(#006b91,#6dcff6);--fr-ingame:light-dark(#356b14,#b7e383);
  --fl-chrome:var(--fr-chrome) !important;--fl-canvas:var(--fr-canvas) !important;--fl-panel:var(--fr-panel) !important;
  --mica-bg-accent:var(--fr-chrome) !important;--base:var(--fr-canvas) !important;--base-alt:var(--fr-chrome) !important;
  --fill:var(--fr-input) !important;--fill-alt:var(--fr-panel) !important;--stroke:var(--fr-border) !important;--stroke-solid:var(--fr-border) !important;--separator-alt:var(--fr-border) !important;

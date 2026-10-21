@@ -2,7 +2,7 @@
   "name": "Fluenty Rework",
   "author": "Tomclanc",
   "description": "Unofficial Fluent-inspired Steam theme with a compact sidebar, blue accent and automatic light/dark colors. Experimental Big Picture support.",
-  "version": "0.7.0",
+  "version": "0.7.6",
   "UseDefaultPatches": false,
   "Patches": [
     {
@@ -61,6 +61,30 @@
     {
       "MatchRegexString": ".friendsui-container",
       "TargetCss": "friends.custom.css"
+    },
+    {
+      "MatchRegexString": "^(Steam Login|Sign in to Steam|Steam 登录|登录 Steam)$",
+      "TargetCss": "login.custom.css"
+    },
+    {
+      "MatchRegexString": ".lat0M-V5X4uYd6Mpm1DJ1",
+      "TargetCss": "login.custom.css"
+    },
+    {
+      "MatchRegexString": "._3NSipG33PSv9wRw5VRHJGv",
+      "TargetCss": "login.custom.css"
+    },
+    {
+      "MatchRegexString": "._1sc-BFvGe6huemAE5yVozQ",
+      "TargetCss": "login.custom.css"
+    },
+    {
+      "MatchRegexString": "._13LIE6vy07AAoDMxgtGpRq",
+      "TargetCss": "login.custom.css"
+    },
+    {
+      "MatchRegexString": "._3_1IllGNUlbwA3DDOFU6iS",
+      "TargetCss": "login.custom.css"
     }
   ],
   "Conditions": {
